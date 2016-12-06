@@ -9,7 +9,7 @@ There's a python script provided that will scrape VirusShare to download all the
 ```bash
 $ git clone https://github.com/vesche/md5party
 $ python scrape-vs.py
-# sudo bash install.sh
+$ sudo bash install.sh
 ```
 
 The default install location is `/data/md5party`. Files will be extracted to `/data/md5party/extract`. If an extracted files hash is found to be within the VirusShare MD5 hash list, it will appear in `/data/md5party/results.txt`.
