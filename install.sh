@@ -5,4 +5,4 @@ cp -r hashes/ /data/md5party
 cp md5party.sh /data/md5party/
 chmod -R 777 /data/md5party
 
-# move md5party-extract.bro into bro directory
+cat md5party-extract.bro >> /usr/local/bro/share/bro/site/local.bro
